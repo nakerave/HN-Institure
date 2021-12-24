@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Menu</title>
+    <meta name="author" content="Nicolas Richard">
+    <link href = "css/bootstrap.min.css" rel = "stylesheet">
+</head>
+<body>
+    <header>
+        <div class="container-fluid">
+            <nav class="navbar navbar-expand navbar-dark bg-dark" role = "navigation"> 
+
+                <div class="col-md-3 text-center">
+                    <img src="images/logo.png" height="60px" alt="logo" id="logo">
+                </div>
+
+                <div class="col-md-6">
+                    <ul class="navbar-nav justify-content-center" >
+                        <li class="nav-item"><a class="nav-link" href="home.html">Home Page</a></li>
+                        <li class="nav-item"><a class="nav-link" href="about.html">About us</a></li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">News</a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item" href="events.html">Events</a>
+                                <a class="dropdown-item" href="news.html">News</a>
+                            </div>
+                        </li>
+                        <li class="nav-item"><a class="nav-link" href="store.html">Store</a></li>
+                        <li class="nav-item"><a class="nav-link" href="gallery.html">Gallery</a></li>
+                        <li class="nav-item"><a class="nav-link" href="contact.html">Contact us</a></li>
+                    </ul>
+                </div>
+                
+                <div class="form-outline">
+                    <input type="search" id="search_form">
+                    <label for="search_form"></label>
+                </div>
+                <button type="button" class="btn btn-primary">Search</button>
+            </nav>
+        </div>
+    </header>
+</body>
+</html>
